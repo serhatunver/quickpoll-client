@@ -187,10 +187,7 @@ export default {
             <PieChart :size="12" stroke-width="3" class="q-mr-sm" />
             <div class="text-capitalize text-body1">Results</div>
           </q-btn>
-          <q-btn outline size="md" color="primary" rounded>
-            <Share2 :size="12" stroke-width="3" class="q-mr-sm" />
-            <div class="text-capitalize">Share</div>
-          </q-btn>
+          <share-button />
         </div>
       </div>
     </div>

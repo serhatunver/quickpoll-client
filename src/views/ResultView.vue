@@ -100,10 +100,7 @@ export default {
               <ArrowLeft size="16" class="q-mr-sm" />
               <div class="text-capitalize text-subtitle2">Back to Vote</div>
             </q-btn>
-            <q-btn class="" outline rounded color="primary">
-              <Share2 size="12" stroke-width="3" class="q-mr-sm" />
-              <div class="text-capitalize">Share</div>
-            </q-btn>
+            <share-button />
           </div>
         </div>
         <e-charts class="pie" />
