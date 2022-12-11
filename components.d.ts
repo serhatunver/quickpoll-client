@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     ProgressBar: typeof import('./src/components/ProgressBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    ShareButton: typeof import('./src/components/ShareButton.vue')['default']
     ShareComp: typeof import('./src/components/ShareComp.vue')['default']
   }
 }
