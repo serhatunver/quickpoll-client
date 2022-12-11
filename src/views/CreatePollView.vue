@@ -213,9 +213,9 @@ export default {
   cursor: pointer;
   border-radius: 0 5px 0 0;
   color: $red-6;
-}
-.remove-btn:hover {
-  background-color: $red-6;
-  color: #fff;
+  &:hover {
+    background-color: $red-6;
+    color: #fff;
+  }
 }
 </style>
