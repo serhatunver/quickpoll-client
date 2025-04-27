@@ -12,6 +12,5 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     ShareButton: typeof import('./src/components/ShareButton.vue')['default']
-    ShareComp: typeof import('./src/components/ShareComp.vue')['default']
   }
 }
