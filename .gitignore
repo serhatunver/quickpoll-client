@@ -7,22 +7,63 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
+/.pnpm-store
+/.yarn/cache
+/.yarn/unplugged
+/.yarn/build-state.yml
+/.yarn/install-state.gz
+.pnpm-debug.log
+.yarn-integrity
 
-/cypress/videos/
-/cypress/screenshots/
+# Build outputs
+/dist
+/dist-ssr
+/.output
+/out
 
-# Editor directories and files
-.vscode/*
+# Cache and temp files
+/.vite
+/.vitepress/cache
+/.nuxt
+/.next
+/.svelte-kit
+/.cache
+.turbo
+
+# Environment variables (ignore all EXCEPT .env.example)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IDE/Editor files
+.idea/
+.vscode/
 !.vscode/extensions.json
-.idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage
+*.lcov
+.nyc_output
+
+# Vue/Vite-specific
+/src-temp/  # (Used by tools like VitePress)
+
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
