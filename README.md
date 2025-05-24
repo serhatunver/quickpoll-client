@@ -1,1 +1,1 @@
-![quickpoll](https://github.com/user-attachments/assets/1fce6cf6-b541-42ca-8469-aeb37a5b9409)
+![quickpoll](https://github.com/user-attachments/assets/ef25bde3-4848-45db-bf3d-035d93921d58)
